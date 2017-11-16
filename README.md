@@ -6,6 +6,7 @@ I added the following gameplay mechanics and there will be a brief description o
 
 ###### Homing Missile
 Two types of Homing Missiles are present:
+
 *Guaranteed Hit* - This type of missile perfectly tracks the position of the player. When the missile is spawned, it gets the position of the player and updates it as the player moves around the scene. The velocities in the x and z direction are adjusted based on the weight (importance) of the old/new velocity. This helps smoothing into a velocity direction and magnitude to prevent a sudden jerk movement. Vector 3 Slerp can also be used for this.
 
 *Almost-homing Missile* - This missile shoots the bolt at an approximate position based on where the player was at time of spawning. The missile gets the position of the player on creation, and a force is added to the missile according to the relative vector position of the player according to the missile. It doesn't track the position of the player.
