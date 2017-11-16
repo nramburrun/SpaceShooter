@@ -21,7 +21,9 @@ The term "Having eyes at the back of your head" works well in that case. Instead
 This is fairly common across games and I'm a big fan of powerups. There's currently 3 different types of powerups available.
 
 *Machine Gun (MG)* - When you fire a shot, there's a delay between the next shot that you can fire. When you pick up the Machine Gun, using the RMB will remove that delay for 2 seconds so that the bolts come out in a "machine-guney" way.
+
 *Rocket Shot (RS)* - A special type of rocket that takes a while to deploy but destroys everything in it's path.
+
 *Health Potion (HP)* - Band-Aid for your boo-boo.
 
 They work in a similar way as spawning hazards/enemies. They are not that common and they don't have the same probability of spawning in the scene.
