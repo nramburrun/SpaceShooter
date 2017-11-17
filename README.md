@@ -4,7 +4,7 @@ The game is initially based on Unity's Spaceshooter tutorial. To see what it ori
 ## Gameplay Changes
 I added the following gameplay mechanics and there will be a brief description of how each of the features work. 
 
-###### Homing Missile
+###### Homing Missile (work in progress)
 Two types of Homing Missiles are present:
 
 *Guaranteed Hit* - This type of missile perfectly tracks the position of the player. When the missile is spawned, it gets the position of the player and updates it as the player moves around the scene. The velocities in the x and z direction are adjusted based on the weight (importance) of the old/new velocity. This helps smoothing into a velocity direction and magnitude to prevent a sudden jerk movement. Vector 3 Slerp can also be used for this.
