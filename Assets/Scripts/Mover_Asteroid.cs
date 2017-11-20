@@ -2,16 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mover : MonoBehaviour {
+public class Mover_Asteroid : MonoBehaviour {
 
 	public float speed;
 	private Rigidbody rb;
-	private GameController gameController;
 
 	void Start()
 	{
 		rb = GetComponent<Rigidbody>();
 		rb.velocity = transform.forward * speed;
-	
 	}
 }

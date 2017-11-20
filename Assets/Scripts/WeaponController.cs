@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* ENEMY WEAPON CONTROLLER */ 
 public class WeaponController : MonoBehaviour {
 
 	public GameObject shot;
@@ -16,7 +17,6 @@ public class WeaponController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rand = Random.Range (fireRate_low, fireRate_high);
-		Debug.Log (rand.ToString("F1"));
 		audioSource = GetComponent<AudioSource> ();
 		InvokeRepeating ("Fire", delay, rand);
 	}
