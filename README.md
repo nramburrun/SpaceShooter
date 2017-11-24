@@ -1,6 +1,8 @@
 # YASIC - Yet Another Space Invader Clone
 The game is initially based on Unity's Spaceshooter tutorial. To see what it originally looks like, check out the first 10 seconds of this video  https://www.youtube.com/watch?v=kX0hnOS1QQQ
 
+Highlight Reel of Gameplay Features: https://youtu.be/jlYaBihW3aU
+
 Visit https://nramburrun.itch.io/spaceshooter?secret=GEqeBpplhY8Y0zpebydkpVRYXHE to check it out :)
 
 ## Gameplay Changes
