@@ -3,7 +3,9 @@ The game is initially based on Unity's Spaceshooter tutorial. To see what it ori
 
 Highlight Reel of Gameplay Features: https://youtu.be/jlYaBihW3aU
 
+
 Visit https://nramburrun.itch.io/spaceshooter to check it out!
+EDIT: Current version on itch.io has major errors. Please check the highlight reel and feel free to DM for more information~
 
 ## Gameplay Changes
 I added the following gameplay mechanics and there will be a brief description of how each of the features work. 
